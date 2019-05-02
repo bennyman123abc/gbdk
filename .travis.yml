@@ -3,4 +3,3 @@ install: sudo apt-get -y install make gcc g++ bison flex
 script:
   - make
   - sudo make install
-  - cd gbdk-lib/examples/gb && make
